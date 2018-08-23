@@ -9,7 +9,7 @@
 import os
 import sys
 
-dir_list = ["dir_1", "dir_2", "dir_3", "dir_4", "dir_5", "dir_6", "dir_7", "dir_8", "dir_9"]
+dir_list = ["dir_"+str(elem) for elem in range(1,10)]
 
 def create_dir(dir):
         if dir:
