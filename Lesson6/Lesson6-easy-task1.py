@@ -12,7 +12,7 @@ class TownCar:
         return "Машина {} остановилась".format(self._name)
 
     def turn(self, direction):
-        return "Машина {} повенрнула {}".format(self._name,direction)
+        return "Машина {} повернула {}".format(self._name,direction)
 
 class SportCar:
     def __init__(self,speed,color,name):
@@ -28,7 +28,7 @@ class SportCar:
         return "Машина {} остановилась".format(self._name)
 
     def turn(self, direction):
-        return "Машина {} повенрнула {}".format(self._name,direction)
+        return "Машина {} повернула {}".format(self._name,direction)
 
 
 class WorkCar:
@@ -45,7 +45,7 @@ class WorkCar:
         return "Машина {} остановилась".format(self._name)
 
     def turn(self, direction):
-        return "Машина {} повенрнула {}".format(self._name,direction)
+        return "Машина {} повернула {}".format(self._name,direction)
 
 class PoliceCar:
     def __init__(self,speed,color,name):
@@ -61,7 +61,7 @@ class PoliceCar:
         return "Машина {} остановилась".format(self._name)
 
     def turn(self, direction):
-        return "Машина {} повенрнула {}".format(self._name,direction)
+        return "Машина {} повернула {}".format(self._name,direction)
 
 car1 = TownCar(90,"зелёный","Mitsubishi ASX")
 print(car1.go())
