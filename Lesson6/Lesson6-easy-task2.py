@@ -11,7 +11,7 @@ class Car:
         return "Машина {} остановилась".format(self._name)
 
     def turn(self, direction):
-        return "Машина {} повенрнула {}".format(self._name,direction)
+        return "Машина {} повернула {}".format(self._name,direction)
 
 class  TownCar(Car):
     def __init__(self,speed,color,name):
