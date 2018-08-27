@@ -79,8 +79,8 @@ class Fabric:
         toy = ToyObj
 
         try:
-            toy.setcolor(toy_color)
-            print("Fabric:Coloring>> Finished to create a toy: '{}' with name: '{}' and color: '{}'".format(toy.gettype(),toy.getname(),toy.getcolor()))
+            toy.set_color(toy_color)
+            print("Fabric:Coloring>> Finished to create a toy: '{}' with name: '{}' and color: '{}'".format(toy.get_type(), toy.get_name(), toy.get_color()))
 
         except AttributeError:
             print("ERROR: Fabric:Tailoring>> Object with type <ToyObj> hasn't been created!")
